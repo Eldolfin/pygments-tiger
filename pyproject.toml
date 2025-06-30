@@ -2,8 +2,14 @@
 name = "pygments-tiger"
 version = "0.1.6"
 description = "Pygments lexer for the Tiger Language"
-readme = "README.md"
+authors = [
+  {name = "Gabriel Laska", email = "gabriel@lse.epita.fr"},
+]
+license = "MIT"
 requires-python = ">=3.12"
 dependencies = [
     "pygments>=2.19.2",
 ]
+
+[project.entry-points."pygments.lexers"]
+tiger = "pygments_tiger:TigerLexer"
