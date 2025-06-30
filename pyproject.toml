@@ -13,3 +13,7 @@ dependencies = [
 
 [project.entry-points."pygments.lexers"]
 tiger = "pygments_tiger:TigerLexer"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
