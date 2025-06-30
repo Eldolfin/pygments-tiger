@@ -1,0 +1,9 @@
+[project]
+name = "pygments-tiger"
+version = "0.1.6"
+description = "Pygments lexer for the Tiger Language"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pygments>=2.19.2",
+]
